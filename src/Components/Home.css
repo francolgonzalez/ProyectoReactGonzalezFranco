@@ -1,0 +1,12 @@
+.containerParrafo {
+    display: flex;
+    align-content: center;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: black;
+}
