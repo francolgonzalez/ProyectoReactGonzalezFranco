@@ -1,4 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import CartWidget from '../CartWidget/CartWidget'
 
 const NavBar = () => {
   return (
@@ -21,7 +23,7 @@ const NavBar = () => {
             <a class="nav-link" href="#">Accessories</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#"></a>
+              <CartWidget/>
             </li>
         </ul>
         </div>
