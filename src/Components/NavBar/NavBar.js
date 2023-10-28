@@ -4,32 +4,25 @@ import CartWidget from '../CartWidget/CartWidget'
 
 const NavBar = () => {
   return (
-    <div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">HMD</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Dumbbells</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Bars</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Accessories</a>
-            </li>
-            <li class="nav-item">
-              <CartWidget/>
-            </li>
+      <nav className='flex justify-around bg-black p-4 w-100 relative'>
+        <ul className='flex items-center gap-6 m-0 p-0'>
+          <li className='text-4xl font-bold text-white'>
+            <a>HMD</a>
+          </li>
+          <li className='text-xl font-bold text-white '>
+            <a>Accesorios</a>
+          </li>
+          <li className='text-xl font-bold text-white'>
+            <a>Suplementos</a>
+          </li>
+          <li className='text-xl font-bold text-white'>
+            <a>Indumentaria</a>
+          </li>
+          <li className='text-4xl font-bold text-white'>
+            <CartWidget/>
+          </li>
         </ul>
-        </div>
-    </div>
-    </nav>
-    </div>
+      </nav>
   )
 }
 
