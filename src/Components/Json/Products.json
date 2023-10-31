@@ -1,0 +1,56 @@
+[
+    {
+        "id":1,
+        "nombre":"Rodilleras SBD Powerlifting",
+        "descripcion":"Las rodilleras SBD Powerlifting, están diseñadas para levantadores de pesas competitivos que buscan maximizar el soporte y la confianza durante los intentos máximos", 
+        "imagen":"https://sbdapparel.com/cdn/shop/products/6681432490191-1659044214003.jpg?v=1659969452&width=1800",
+        "precio":"100",
+        "stock":"10",
+        "categoria":"accesorios"
+    },
+    {
+        "id":2,
+        "nombre":"Coderas SBD Powerlifting",
+        "descripcion":"Las coderas SBD Powerlifting, están diseñadas para brindar el máximo soporte y compresión para la articulación, al tiempo que garantizan que el codo se mueva libremente, preservando el rango de movimiento.", 
+        "imagen":"https://sbdapparel.com/cdn/shop/products/Elbow-Sleeves-01_3494c1db-38ba-435b-935b-19a408158e22.jpg?v=1621334986&width=1800",
+        "precio":"45",
+        "stock":"10",
+        "categoria":"accesorios"
+    },
+    {
+        "id":3,
+        "nombre":"Singlet SBD Powerlifting",
+        "descripcion":"Un ajuste personalizado tanto para hombres como para mujeres. Construido con un tejido pesado de punto doble, duradero y transpirable.", 
+        "imagen":"https://sbdapparel.com/cdn/shop/products/6681435308239-1659458749732_77f7f06a-7ad5-4b42-942e-21979b26aa6e.jpg?v=1659969445&width=1800",
+        "precio":"75",
+        "stock":"10",
+        "categoria":"indumentaria"
+    },
+    {
+        "id":4,
+        "nombre":"Medias SBD Deadlift",
+        "descripcion":"Medias largas de primera calidad para cubrir la espinilla sin doblarse durante los movimientos de tracción, protegiendola de la resistencia con el panel frontal de doble punto. ", 
+        "imagen":"https://sbdapparel.com/cdn/shop/products/6681435898063-1659044075718.jpg?v=1659969451&width=1800",
+        "precio":"15",
+        "stock":"10",
+        "categoria":"indumentaria"
+    },
+    {
+        "id":5,
+        "nombre":"Platinum Whey Protein",
+        "descripcion":"Suplemento dietario en polvo dietético para preparar bebida a base de proteínas de suero. 2 LIBRAS | 30 SERV. | 25GR DE PROTEÍNA X SERV.", 
+        "imagen":"http://starnutrition.com.ar/images/PD_p_whey_protein_01.jpg",
+        "precio":"13",
+        "stock":"10",
+        "categoria":"suplemento"
+    },
+    {
+        "id":6,
+        "nombre":"Creatine Monohydrate",
+        "descripcion":"Suplemento dietario a base de Creatina Monohidrato. 300G | 60 SERV. | 5G CREATINA X SERV. | ULTRAMICRONIZED 100% PURA | AUMENTA EL VOLUMEN Y LA RESISTENCIA", 
+        "imagen":"http://starnutrition.com.ar/images/PD_creatine_monohydrate_300_01.jpg",
+        "precio":"20",
+        "stock":"10",
+        "categoria":"suplemento"
+    }
+]
