@@ -3,7 +3,7 @@ import Item from '../Item/Item'
 
 const ItemList = ({item}) => {
   return (
-    <div>
+    <div className='grid grid-cols-3 grid-rows-1 justify-center'>
         {
         item.map(item=>
         
