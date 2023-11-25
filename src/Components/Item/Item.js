@@ -6,9 +6,9 @@ const Item = ({item}) => {
     <Link to={'/item/' + item.id} className='text-center'>
     <div className='inline-block border p-4 m-4'>
         <div className=''>
-            <img src={item.imagen} alt={item.nombre} className='w-80 h-70 rounded-sm'/>
+            <img src={item.img} alt={item.title} className='w-64 h-64 object-cover mx-auto mb-4 rounded-sm'/>
             <div className=''>
-                <p className='outline-0 text-black text-xl mt-6 mt-16 mb-10'>{item.nombre} - {item.precio}</p>
+                <p className='text-black font-bold text-xl mt-4 leading-10'>{item.title} <br></br>$ {item.price}</p>
             </div>
         </div>
     </div>

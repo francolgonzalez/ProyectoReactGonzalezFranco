@@ -5,8 +5,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Error from './Components/Error';
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
 import Cart from './Components/Cart/Cart'
-
-import { CartProvider } from './Components/context/CartContext';
+import CartProvider from './Components/context/CartContext';
 import { Checkout } from './Components/Checkout/Checkout';
  
 

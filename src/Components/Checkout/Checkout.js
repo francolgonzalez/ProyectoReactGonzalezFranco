@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CartContext } from "../context/CartContext";
+import { useCartContext } from "../context/CartContext";
 import { Link } from "react-router-dom";
 import { getFirestore, collection, addDoc, updateDoc, doc, getDoc } from "firebase/firestore";
 
@@ -12,7 +12,7 @@ export const Checkout = () => {
     const [error, setError] = useState('');
     const [ordenId, setOrdenId] = useState('');
 
-    const { cart, removeProduct, totalPrice } = CartContext();
+    const { cart, removeProduct, totalPrice } = useCartContext();
 
     const manejadorFormulario = (event) => {
         event.preventDefault();
@@ -31,7 +31,7 @@ export const Checkout = () => {
             items: cart.map((producto) => ({
             id: producto.id,
             nombre: producto.title,
-            cantidad: producto.quantity,
+            cantidad: producto.stock,
         })),
         total: total,
         fecha: new Date(),
